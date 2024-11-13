@@ -24,3 +24,17 @@ This project demonstrates how to create a basic web application with Spring and 
    ```bash
    git clone https://github.com/Jimmy9812/LenguajeJava.git
     ```
+2. Run the application:
+After cloning, you can start the application by navigating to the project directory and using Maven to run it:
+```bash
+mvn spring-boot:run
+```
+### Run the image of Docker Hub
+You can pull and run it on any machine that has Docker installed
+```
+docker pull Jimmy9812/Lenguaje-java:latest
+
+docker run -p 8081:8081 Jimmy9812/Lenguaje-java:latest
+```
+Usage
+Once the application is running, you can access it at http://localhost:8081.
